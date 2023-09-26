@@ -5,9 +5,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Additional Pterodactyl Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ItzBenoitXD/additional-docs-ptero',
 			},
 			sidebar: [
 				{
@@ -24,4 +24,5 @@ export default defineConfig({
 			],
 		}),
 	],
+	site: 'https://docs.amogus.stozu.net',
 });
